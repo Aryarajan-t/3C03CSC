@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration Form</title>
+  </head>
+  <body>
+  <h1>Registration Form</h1>
+  <form>
+    <input type="text" placeholder="Your name" pattern="[a-zA-z]+" title="Name should contain only letters and it should have atleast one letter" required/><br /><br />
+    <input type="text" placeholder="Father's name"/><br /><br />
+    <input type="text" placeholder="phone.no" pattern="\d{10}" required/><br /><br />
+    Date Of Birth:<input type="date"/><br /><br />
+    Address:
+    <textarea rows="5" Cols="20" placeholder="Address"/>
+    </textarea><br /><br />
+    Languages known:
+    Malayalam<input type="checkbox" value="malayalam" checked/><br /><br />
+    English<input type="checkbox" value="english" checked/><br /><br />
+    Hindi<input type="checkbox" value="hindi" checked/><br /><br />
+    Course:
+    <input type=text list="Course"/>
+    <datalist id="Course">
+        <option value="Computer Science"/>
+        <option value="Physics"/>
+        <option value="Chemistry"/>
+        <option value="Mathematics"/>
+        <option value="Statistics"/>
+    </datalist><br />
+    University:
+    <select required>
+        <option>Kannur University</option>
+        <option>University of calicut</option>
+        <option>MG University</option>
+        <option>Kerala University</option>
+    </select><br /><br />
+    <input tpye="email" placeholder="email address"/><br /><br />
+    <input tpye="password" placeholder="Your password"/><br /><br />
+    <input type="submit " value="Register"/>
+    </form>
+  </body>
+</html>
