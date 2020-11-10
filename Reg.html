@@ -8,16 +8,16 @@
   <form>
     <input type="text" placeholder="Your name" pattern="[a-zA-z]+" title="Name should contain only letters and it should have atleast one letter" required/><br /><br />
     <input type="text" placeholder="Father's name"/><br /><br />
-    <input type="text" placeholder="phone.no" pattern="\d{10}" required/><br /><br />
+    <input type="text" placeholder="phone.no" required/><br /><br />
     Date Of Birth:<input type="date"/><br /><br />
-    Address:<textarea rows="5" Cols="20" placeholder="Address"/></textarea><br /><br />
+    Address:<textarea></textarea><br /><br />
     Languages known:
     Malayalam<input type="checkbox" value="malayalam" checked/>
     English<input type="checkbox" value="english"/>
     Hindi<input type="checkbox" value="hindi"/><br /><br />
-    Course:
-    <input type=text list="Course"/>
-    <datalist id="Course">
+    Selected programe:
+    <input type=text list="Programe"/>
+    <datalist id="Programe">
         <option value="Computer Science"/>
         <option value="Physics"/>
         <option value="Chemistry"/>
@@ -33,7 +33,8 @@
         <option>Kerala University</option>
     </select><br /><br />
     <input tpye="email" placeholder="email address" required/><br /><br />
-    <input type="password" placeholder="Your password" required/><br /><br />
+    <input type="password" placeholder="Your password"/><br /><br />
+    <input type="password" placeholder="confirm password"/><br /><br />
     <input type="submit" value="Register"/>
     </form>
   </body>
